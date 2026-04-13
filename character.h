@@ -1,0 +1,12 @@
+class Character {
+    public:
+
+
+
+    
+    private:
+
+
+
+
+}
