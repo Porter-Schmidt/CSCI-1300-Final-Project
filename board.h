@@ -21,10 +21,10 @@ class Board {
 
     public:
         // Default Constructor
-
-        void initializeBoard() {}
-        void displayTrack(int player_index) {}
-        void displayBoard() {}
-        bool movePlayer(int player_index) {}
-        int getPlayerPosition(int player_index) const {}
-}
+        Board();
+        void initializeBoard();
+        void displayTrack(int player_index);
+        void displayBoard();
+        bool movePlayer(int player_index);
+        int getPlayerPosition(int player_index) const;
+};
